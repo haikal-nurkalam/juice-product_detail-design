@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Blur pada bagian bawah scroll bar */
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+    backdrop-filter: blur(10px); /* Blur effect */
+  }  

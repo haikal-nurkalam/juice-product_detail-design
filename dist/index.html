@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack App</title>
+  </head>
+  <body class="px-12 bg-slate-100">
+    <!-- Nav -->
+    <div class="flex justify-between py-6 w-full">
+      <!-- Left -->
+      <div class="flex gap-x-4 items-center">
+        <h1 class="font-mono text-xl">Misua</h1>
+        <a href="" class="hidden md:block text-sm font-medium">Our Story</a>
+        <a href="" class="hidden md:block text-sm font-medium">Corporate</a>
+        <a href="" class="hidden md:block text-sm font-medium">Shop</a>
+      </div>
+      <div class="flex gap-x-4 items-center">
+        <img width="24" height="24" class="md:hidden block" src="https://img.icons8.com/ios-glyphs/90/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+        <a href="" class="hidden md:block text-sm font-medium">Cart</a>
+        <a href="" class="hidden md:block text-sm font-medium">Login</a>
+      </div>
+    </div>
+
+    <div class="flex pb-2 gap-2">
+      <a href="" class="text-sm text-slate-500 hover:text-slate-900 hover:font-semibold">Shop</a>
+      <p class="text-sm text-slate-500">></p>
+      <a href="" class="text-sm text-slate-500 hover:text-slate-900 hover:font-semibold">MISUA. LEMON ZING</a>
+    </div>
+
+    <!-- Product Cards -->
+    <div class="flex w-full py-8 px-4 rounded-xl flex-wrap justify-center bg-white">
+      <!-- Image -->
+      <div class="flex justify-center items-center w-8/12 py-8">
+        <img src="./img/image-removebg-preview.png" alt="" class="h-96 aspect-square min-w-96">
+      </div>
+
+      <!-- Ingredients & Price -->
+      <div class="flex flex-col gap-6 md:w-4/12 w-full">
+        <p class="text-2xl">MISUA. LEMON ZING</p>
+        <div class="flex flex-col gap-2 md:h-72 pb-32 md:pb-0 overflow-auto">
+        <p class="text-sm font-light text-gray-600">Awaken your senses with Zesty Lemon Zing, a vibrant concoction that embodies the essence of sun-kissed lemons. Dive into a citrus symphony where the tangy zest of lemon meets the subtle sweetness of pure joy.
+
+
+          </p>
+          <!-- Ingredients -->
+        
+          <div class="flex flex-col gap-1 border-t border-slate-200 pt-2">
+            <p>Nutritional value</p>
+            <div class="flex justify-between">
+              <p class="text-sm">Energy (kcal/kj)</p>
+              <p class="text-sm font-bold">15/65%</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-sm">Lipids (g)</p>
+              <p class="text-sm font-bold">27%</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-sm">Saturated fatty acids (g)</p>
+              <p class="text-sm font-bold">1g</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-sm">Carbohidrates</p>
+              <p class="text-sm font-bold">4g</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-sm">Proteins (g)</p>
+              <p class="text-sm font-bold">2g</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-sm">Sugars (g)</p>
+              <p class="text-sm font-bold">2.5g</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-1 border-t border-slate-200 pt-2">
+            <p>Ingredients</p>
+            <div class="flex justify-between">
+              <p class="text-sm">Water</p>
+              <p class="text-sm font-bold">40%</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-sm">Grape Fruit</p>
+              <p class="text-sm font-bold">27%</p>
+            </div>
+            <div class="flex justify-between">
+              <p class="text-sm">Agave Syrup</p>
+              <p class="text-sm font-bold">23%</p>
+            </div>
+          </div>
+        </div>
+        <div class="fixed bottom-0 left-0 px-12 py-6 w-full md:p-0 bg-slate-200 md:relative md:bg-transparent justify-between space-y-4">
+          <p class="text-xl font-medium">$2.45/bottle</p>
+          <button class="border border-slate-900 w-full py-2 rounded-md hover:bg-slate-900 hover:text-white transform duration-200 ease-in-out z-10">Buy Now</button>
+        </div>
+      </div>
+      
+    </div>
+    <h2 class="text-3xl mt-4"> You might also like</h2>
+    <div class="grid md:grid-cols-5 grid-cols-2 gap-4 bg-gray-100 mt-4 pb-32 md:pb-4">
+      <div class="bg-white rounded-lg flex flex-col gap-4">
+        <img src="./img/image-removebg-preview.png" alt="" class="w-full">
+        <div class="px-4 py-2 flex flex-col gap-1">
+          <p class="text-lg">MISUA. GRAPE</p>
+          <p class="text-lg font-medium">$2.28</p>
+          <button class="border border-slate-900 w-full py-2 rounded-md hover:bg-slate-900 hover:text-white duration-200 ease-in-out">Buy Now</button>
+        </div>
+        
+      </div>
+      <div class="bg-white rounded-lg flex flex-col gap-4">
+        <img src="./img/image-removebg-preview.png" alt="" class="w-full">
+        <div class="px-4 py-2 flex flex-col gap-1">
+          <p class="text-lg">MISUA. GRAPE</p>
+          <p class="text-lg font-medium">$2.28</p>
+          <button class="border border-slate-900 w-full py-2 rounded-md hover:bg-slate-900 hover:text-white  duration-200 ease-in-out">Buy Now</button>
+        </div>
+        
+      </div>
+      <div class="bg-white rounded-lg flex flex-col gap-4">
+        <img src="./img/image-removebg-preview.png" alt="" class="w-full">
+        <div class="px-4 py-2 flex flex-col gap-1">
+          <p class="text-lg">MISUA. GRAPE</p>
+          <p class="text-lg font-medium">$2.28</p>
+          <button class="border border-slate-900 w-full py-2 rounded-md hover:bg-slate-900 hover:text-white  duration-200 ease-in-out">Buy Now</button>
+        </div>
+        
+      </div>
+      <div class="bg-white rounded-lg flex flex-col gap-4">
+        <img src="./img/image-removebg-preview.png" alt="" class="w-full">
+        <div class="px-4 py-2 flex flex-col gap-1">
+          <p class="text-lg">MISUA. GRAPE</p>
+          <p class="text-lg font-medium">$2.28</p>
+          <button class="border border-slate-900 w-full py-2 rounded-md hover:bg-slate-900 hover:text-white  duration-200 ease-in-out">Buy Now</button>
+        </div>
+        
+      </div>
+      <div class="bg-white rounded-lg flex flex-col gap-4">
+        <img src="./img/image-removebg-preview.png" alt="" class="w-full">
+        <div class="px-4 py-2 flex flex-col gap-1">
+          <p class="text-lg">MISUA. GRAPE</p>
+          <p class="text-lg font-medium">$2.28</p>
+          <button class="border border-slate-900 w-full py-2 rounded-md hover:bg-slate-900 hover:text-white  duration-200 ease-in-out">Buy Now</button>
+        </div>
+        
+      </div>
+    </div>
+    
+
+
+  
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
